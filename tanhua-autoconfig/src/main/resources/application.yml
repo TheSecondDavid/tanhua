@@ -1,0 +1,19 @@
+tanhua:
+  sms:
+    accessKey : LTAI5tLm5gB4Ts1j1R1HYPxD
+    secret : mcCJAQ8ZvMYBzaE6Vchn3pSfzDQgg4
+    signName : ABC商城
+    templateCode : SMS_463624288
+  qiniu:
+    accessKey: fUHuuJI2Ez4eSwxUEoE1jY6qfNvEOFGS7IdfV7xC
+    secretKey: AJ-KmtpLfHckCPhrO3-_dXdweASKZprLUGND59Ak
+    url: s3l5k05fh.hd-bkt.clouddn.com
+  baidu:
+    API_key: qvr7ho3pfHkcAiHlbtLj4aNO
+    Secret_Key: aebTsp2jpaDGjrvvGrDi5hssWErivnxS
+    AppID: 42356012
+  huanxin:
+    appkey: 1198231125169412#demo
+    clientId: YXA6urObc08xQ92Ro-0HRpXshQ
+    clientSecret: YXA64XxFLquncB56hUrr4Wg03Wn3pqE
+

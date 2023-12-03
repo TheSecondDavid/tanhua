@@ -1,0 +1,32 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tanhua?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.136.160
+    port: 6379
+  application:
+    name: dubbo-db
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.136.160:8848
+logging:
+  level:
+    com.zhouhao: debug
+  pattern:
+    dateformat: HH:mm:ss:SSS
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20882
+  registry:
+    address: spring-cloud://localhost
+  scan:
+    base-packages: com.zhouhao.apiImpl
+  consumer:
+    check: false

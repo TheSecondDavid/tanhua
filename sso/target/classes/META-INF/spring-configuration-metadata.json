@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "tanhua.sms",
+      "type": "com.zhouhao.pojo.SMSConfig",
+      "sourceType": "com.zhouhao.pojo.SMSConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tanhua.sms.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.zhouhao.pojo.SMSConfig"
+    },
+    {
+      "name": "tanhua.sms.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.zhouhao.pojo.SMSConfig"
+    },
+    {
+      "name": "tanhua.sms.domain",
+      "type": "java.lang.String",
+      "sourceType": "com.zhouhao.pojo.SMSConfig"
+    },
+    {
+      "name": "tanhua.sms.sign-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zhouhao.pojo.SMSConfig"
+    },
+    {
+      "name": "tanhua.sms.template-code",
+      "type": "java.lang.String",
+      "sourceType": "com.zhouhao.pojo.SMSConfig"
+    }
+  ],
+  "hints": []
+}

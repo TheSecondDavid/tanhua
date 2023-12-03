@@ -1,0 +1,69 @@
+fdfs:
+  so-timeout: 1500
+  connect-timeout: 600
+  #缩略图生成参数
+  thumb-image:
+    width: 150
+    height: 150
+  #TrackerList参数,支持多个
+  tracker-list: 192.168.136.160:22122
+  web-server-url: http://192.168.136.160:8888/
+server:
+  port: 8989
+spring:
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1
+  datasource:
+    url: jdbc:mysql://localhost:3306/tanhua?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.136.160
+    port: 6379
+  application:
+    name: app-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.136.160:8848
+logging:
+  level:
+    com.zhouhao: debug
+  pattern:
+    dateformat: HH:mm:ss:SSS
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: spring-cloud://localhost
+    timeout: 10000
+  scan:
+    base-packages: com.zhouhao.service
+  consumer:
+    check: false
+
+tanhua:
+  sms:
+    accessKey : LTAI5tLm5gB4Ts1j1R1HYPxD
+    secret : mcCJAQ8ZvMYBzaE6Vchn3pSfzDQgg4
+    signName : ABC商城
+    templateCode : SMS_463624288
+  qiniu:
+    accessKey: fUHuuJI2Ez4eSwxUEoE1jY6qfNvEOFGS7IdfV7xC
+    secretKey: AJ-KmtpLfHckCPhrO3-_dXdweASKZprLUGND59Ak
+    url: s3l5k05fh.hd-bkt.clouddn.com
+  baidu:
+    API_key: qvr7ho3pfHkcAiHlbtLj4aNO
+    Secret_Key: aebTsp2jpaDGjrvvGrDi5hssWErivnxS
+    AppID: 42356012
+  huanxin:
+    appKey: 1198231125169412#tanhua2
+    clientId: YXA6qL86A9zuREGS9HK64GTebw
+    clientSecret: YXA6WMRHQPdNEerDfFj1vMEkYfNv6-U
+  default:
+    recommend:
+      users: 2,3,8,10,18,20,24,29,27,32,36,37,56,64,75,88

@@ -1,0 +1,15 @@
+tanhua:
+  sms:
+    accessKey : LTAI5tLm5gB4Ts1j1R1HYPxD
+    secret : mcCJAQ8ZvMYBzaE6Vchn3pSfzDQgg4
+    signName : ABC商城
+    templateCode : SMS_463624288
+spring:
+  redis:
+    host: 192.168.136.160
+    port: 6379
+  datasource:
+    url: jdbc:mysql://localhost:3306/tanhua?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver

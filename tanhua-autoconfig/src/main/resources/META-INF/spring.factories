@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zhouhao.config.SmsAutoConfig,\
+  com.zhouhao.config.MybatisPlusConfig,\
+  com.zhouhao.config.QiniuAutoConfig,\
+  com.zhouhao.config.BaiduAutoConfig,\
+  com.zhouhao.config.HuanXinAutoConfig
